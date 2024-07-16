@@ -1,0 +1,8 @@
+.clasyy {
+    background-color: brown;
+    color: blue;
+    float: right;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
