@@ -15,7 +15,7 @@ import Todo from './components/Todo';
 const router = createBrowserRouter([
   {
     path: '/',
-    element: <App />,
+    element: <Todo />,
     errorElement:<> 404 Not found</>,
     children: [
       {
