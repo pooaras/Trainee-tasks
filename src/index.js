@@ -12,10 +12,15 @@ import About from './components/About'
 import Signup from './components/Signup'
 import Login from './components/Login';
 import Todo from './components/Todo';
+import Tictactoe from './Tictactoe/Game';
+import Mui from './Mui/mui';
+import Chat from './components/chat';
+import 'bootstrap-icons/font/bootstrap-icons.css';
+import Category from './Taskmanager/Category';
 const router = createBrowserRouter([
   {
     path: '/',
-    element: <Todo />,
+    element: <App />,
     errorElement:<> 404 Not found</>,
     children: [
       {
@@ -33,6 +38,22 @@ const router = createBrowserRouter([
       {
         path: '/todo',
         element: <Todo/>
+      },
+      {
+        path: '/tictactoe',
+        element: <Tictactoe/>
+      },
+      {
+        path: '/mui',
+        element: <Mui/>
+      },
+      {
+        path: '/chat',
+        element: <Chat/>
+      },
+      {
+        path: '/taskmanager',
+        element: <Category/>
       },
       {
         path: '/home',

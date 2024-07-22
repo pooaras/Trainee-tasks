@@ -94,9 +94,10 @@ const Login = () => {
       });
     // console.log( users)
   }
+  
   return (
     <>
-      <form className='mx-5' onSubmit={HandleClick}>
+      <form className='mx-5' onSubmit={HandleClick} action="/?">
         <h1> Login</h1>
         <div className="mb-3">
             <label className="form-label">Email address</label>

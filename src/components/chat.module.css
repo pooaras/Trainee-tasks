@@ -1,0 +1,24 @@
+.inputBox:focus{
+    outline: none;
+}
+.resTxt{
+    max-width:40%;
+    width: fit-content;
+    padding: 20px;
+    word-wrap: break-word;
+    margin-top:30px;
+    letter-spacing: 1px;
+}
+.inputContainer{
+    border-radius: 100px ;
+}
+::-webkit-scrollbar{
+    display: none;
+}
+.searchbtn{
+    background: transparent;
+}
+.searchbtn:hover:enabled{
+    background-color:rgb(179, 185, 179) ;
+    border-radius: 50%;
+}

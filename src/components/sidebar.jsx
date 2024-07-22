@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 import { NavLink } from 'react-router-dom';
-import './sidebar.css'
+import classes from './sidebar.module.css'
 import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
@@ -18,6 +18,10 @@ const Sidebar = () => {
                 <NavLink className="nav-link text-decoration-none active" to="/home">Home </NavLink>
                 <NavLink className="nav-link text-decoration-none" to="/product">Product </NavLink>
                 <NavLink className="nav-link text-decoration-none " to="/todo">Todo List</NavLink>
+                <NavLink className="nav-link text-decoration-none " to="/tictactoe">Tic tac toe</NavLink>
+                <NavLink className="nav-link text-decoration-none " to="/mui">Mui components</NavLink>
+                <NavLink className="nav-link text-decoration-none " to="/chat">Chat GPT</NavLink>
+                <NavLink className="nav-link text-decoration-none " to="/taskmanager">Task manager</NavLink>
               <NavLink className="nav-link text-decoration-none" to="/about">About</NavLink>
                 <NavLink className="nav-link text-decoration-none" to="/contact">Contact</NavLink>
               </Nav>
